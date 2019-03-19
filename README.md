@@ -51,7 +51,7 @@ $ curl http://localhost:8080/addresses
 
 #### Retrieve all Tags
 ```
-curl http://localhost:8080/tags   
+$ curl http://localhost:8080/tags   
 ```
 
 ### 3.2 Delete
@@ -74,6 +74,6 @@ $ curl http://localhost:8080/addresses
 
 #### Create Customer
 ```
-$ curl -i -X POST -H "Content-Type:application/json" -d '{"firstName": "test first name", "lastName": "test last name", "phoneNumber": "test phone number", "addressBook": "http://localhost:8080/addressBooks/1", "address": "http://localhost:8080/addresses/3"}' http://localhost:8080/customers
+$ curl -i -X POST -H "Content-Type:application/json" -d '{"firstName": "test first name", "lastName": "test last name", "phoneNumber": "test phone number", "addressBook": "http://localhost:8080/addressBooks/1", "address": "http://localhost:8080/addresses/4"}' http://localhost:8080/customers
 $ curl http://localhost:8080/customers
 ```
